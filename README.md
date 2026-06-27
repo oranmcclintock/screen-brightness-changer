@@ -1,12 +1,12 @@
 # screen-brightness-changer
 
-A lightweight, modular C++ utility for fine-grained backlight control on Linux systems. 
+A lightweight, modular C++ utility for backlight control on Linux systems. 
 
 This utility interacts directly with the Linux kernel's virtual filesystem (`/sys/class/backlight/`) to provide precise brightness adjustments. It is designed to be mapped to window manager keybindings (like Hyprland) for system-wide brightness control.
 
 ## Features
 
-- **Precise Control:** Allows for granular adjustments via terminal arguments.
+- **Precise Control:** Allows for adjustments via terminal arguments.
 - **Dynamic Step Sizes:** Supports default step sizes or custom values passed via command line.
 - **Hardware Safety:** Includes built-in guard clauses to prevent setting brightness outside of valid hardware ranges.
 - **Lightweight:** Compiled directly into a small, fast binary with no external dependencies.
